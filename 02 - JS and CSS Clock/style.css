@@ -21,7 +21,7 @@ body {
     border: 20px solid white;
     border-radius: 50%;
     background: url('./image.png') center;
-    background-size: contain;
+    background-size: 45rem;
     margin: 50px auto;
     position: relative;
     padding: 4rem;
@@ -65,6 +65,7 @@ body {
 .hour-hand {
     height: 10px;
     border-radius: 50% 0 0 50%;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .second-hand {
